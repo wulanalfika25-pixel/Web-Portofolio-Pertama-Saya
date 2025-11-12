@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="header-kampus">
+        <img src="https://placehold.co/80x80/3498db/ffffff?text=USTB" alt="Logo Universitas Satya Terra Bhinneka" class="logo-kampus">
+        <h1 class="nama-kampus">UNIVERSITAS SATYA TERRA BHINNEKA</h1>
+    </div>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="username">Email / Username</label>
+            <input type="text" id="username" name="username" value="admin@gmail.com" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" value="password123" required>
+
+            <button type="submit">Masuk</button>
+        </form>
+
+        <div id="message" class="message info">Silakan masukkan kredensial Anda.</div>
+
+        <details class="hint-kredensial">
+            <summary>Hint kredensial demo</summary>
+            <p>Username: admin@gmail.com</p>
+            <p>Password: password123</p>
+        </details>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
